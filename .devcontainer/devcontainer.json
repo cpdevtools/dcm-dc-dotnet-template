@@ -1,0 +1,4 @@
+{
+    "name": "Dev Container",
+    "image": "ghcr.io/cpdevtools/dcm-images-devcontainers/typescript:0.1.0-dev.4"
+}
