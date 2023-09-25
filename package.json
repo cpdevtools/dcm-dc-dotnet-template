@@ -1,3 +1,11 @@
 {
-    "name": "@cpdevtools/dcm-dc-typescript-template"
+    "name": "@cpdevtools/dcm-dc-typescript-template",
+    "private": true,
+    "scripts": {
+        "dc-onCreateCommand": "pnpm run -r dc-onCreateCommand",
+        "dc-updateContentCommand": "pnpm run -r dc-updateContentCommand",
+        "dc-postCreateCommand": "pnpm run -r dc-postCreateCommand",
+        "dc-postAttachCommand": "pnpm run -r dc-postAttachCommand",
+        "dc-postStartCommand": "pnpm run -r dc-postStartCommand"
+    }
 }
