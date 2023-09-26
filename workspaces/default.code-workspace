@@ -6,11 +6,6 @@
             "repository": "https://github.com/cpdevtools/dcm-node-dc-template.git"
         },
         {
-            "name": "qwerty",
-            "path": "../repos/qwerty",
-            "repository": "https://github.com/myrddraall/qwerty.git"
-        },
-        {
             "name": "=== Workspaces ===",
             "path": "."
         },
