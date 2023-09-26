@@ -10,16 +10,16 @@
             "repository": "https://github.com/myrddraall/qwerty.git"
         },
         {
+            "path": "../repos/dcm-images-devcontainers",
+            "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "path": "../repos/dcm-images-devcontainers",
-            "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
         }
     ]
 }
