@@ -1,6 +1,11 @@
 {
     "folders": [
         {
+            "name": "dcm-dc-typescript-template",
+            "path": "../repos/dcm-dc-typescript-template",
+            "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
+        },
+        {
             "name": "qwerty",
             "path": "../repos/qwerty",
             "repository": "https://github.com/myrddraall/qwerty.git"
@@ -14,11 +19,6 @@
             "name": "dcm-images-devcontainers",
             "path": "../repos/dcm-images-devcontainers",
             "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
-        },
-        {
-            "name": "dcm-dc-typescript-template",
-            "path": "../repos/dcm-dc-typescript-template",
-            "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
         },
         {
             "name": "=== Workspaces ===",
