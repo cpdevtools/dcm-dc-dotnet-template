@@ -2,7 +2,8 @@
     "folders": [
         {
             "name": "dcm-dc-typescript-template",
-            "path": "../repos/dcm-dc-typescript-template"
+            "path": "../repos/dcm-dc-typescript-template",
+            "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
         },
         {
             "name": "=== Workspaces ===",
