@@ -17,6 +17,10 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
+        },
+        {
+            "path": "../repos/dcm-node-dc-template",
+            "repository": "https://github.com/cpdevtools/dcm-node-dc-template.git"
         }
     ]
 }
