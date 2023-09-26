@@ -7,6 +7,9 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
+        },
+        {
+            "path": "../repos/dcm-images-devcontainers"
         }
     ]
 }
