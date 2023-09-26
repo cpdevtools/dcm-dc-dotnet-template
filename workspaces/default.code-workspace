@@ -12,6 +12,10 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
+        },
+        {
+            "path": "../repos/qwerty",
+            "repository": "https://github.com/myrddraall/qwerty.git"
         }
     ]
 }
