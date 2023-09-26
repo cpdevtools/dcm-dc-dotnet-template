@@ -7,11 +7,6 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "name": "dcm-images-devcontainers",
-            "path": "../repos/dcm-images-devcontainers",
-            "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
         }
     ]
 }
