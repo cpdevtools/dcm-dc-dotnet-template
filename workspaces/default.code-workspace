@@ -9,7 +9,8 @@
             "path": "../.devcontainer"
         },
         {
-            "path": "../repos/dcm-images-devcontainers"
+            "path": "../repos/dcm-images-devcontainers",
+            "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
         }
     ]
 }
