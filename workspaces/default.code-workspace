@@ -6,14 +6,14 @@
             "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
         },
         {
-            "name": "qwerty",
-            "path": "../repos/qwerty",
-            "repository": "https://github.com/myrddraall/qwerty.git"
-        },
-        {
             "name": "dcm-node-dc-template",
             "path": "../repos/dcm-node-dc-template",
             "repository": "https://github.com/cpdevtools/dcm-node-dc-template.git"
+        },
+        {
+            "name": "qwerty",
+            "path": "../repos/qwerty",
+            "repository": "https://github.com/myrddraall/qwerty.git"
         },
         {
             "name": "dcm-images-devcontainers",
