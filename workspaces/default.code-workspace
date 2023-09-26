@@ -1,31 +1,6 @@
 {
     "folders": [
         {
-            "name": "dcman",
-            "path": "../projects/dcman",
-            "repository": "https://github.com/cpdevtools/dcman.git"
-        },
-        {
-            "name": "dcm-images-devcontainers",
-            "path": "../projects/dcm-images-devcontainers",
-            "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
-        },
-        {
-            "name": "lib-node-utilities",
-            "path": "../projects/lib-node-utilities",
-            "repository": "https://github.com/cpdevtools/lib-node-utilities.git"
-        },
-        {
-            "name": "common-github-workflows",
-            "path": "../projects/common-github-workflows",
-            "repository": "https://github.com/cpdevtools/common-github-workflows.git"
-        },
-        {
-            "name": "dcm-dc-test-container",
-            "path": "../projects/dcm-dc-test-container",
-            "repository": "https://github.com/myrddraall/dcm-dc-test-container.git"
-        },
-        {
             "name": "=== Workspaces ===",
             "path": "."
         },
