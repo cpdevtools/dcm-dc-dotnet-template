@@ -1,6 +1,11 @@
 {
     "folders": [
         {
+            "name": "qwerty",
+            "path": "../repos/qwerty",
+            "repository": "https://github.com/myrddraall/qwerty.git"
+        },
+        {
             "name": "dcm-dc-typescript-template",
             "path": "../repos/dcm-dc-typescript-template",
             "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
@@ -22,11 +27,6 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "name": "qwerty",
-            "path": "../repos/qwerty",
-            "repository": "https://github.com/myrddraall/qwerty.git"
         }
     ]
 }
