@@ -16,16 +16,17 @@
             "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
         },
         {
+            "name": "dcm-dc-typescript-template",
+            "path": "../repos/dcm-dc-typescript-template",
+            "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "path": "../repos/dcm-dc-typescript-template",
-            "repository": "https://github.com/cpdevtools/dcm-dc-typescript-template.git"
         }
     ]
 }
