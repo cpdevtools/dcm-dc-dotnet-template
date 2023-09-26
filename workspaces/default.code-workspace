@@ -6,16 +6,16 @@
             "repository": "https://github.com/cpdevtools/dcm-node-dc-template.git"
         },
         {
+            "path": "../repos/qwerty",
+            "repository": "https://github.com/myrddraall/qwerty.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "path": "../repos/qwerty",
-            "repository": "https://github.com/myrddraall/qwerty.git"
         }
     ]
 }
