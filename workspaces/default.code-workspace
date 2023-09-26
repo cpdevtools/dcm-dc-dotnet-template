@@ -1,15 +1,16 @@
 {
     "folders": [
         {
+            "name": "dcm-dc-typescript-template",
+            "path": "../repos/dcm-dc-typescript-template"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "path": "../repos/dcm-dc-typescript-template"
         }
     ]
 }
