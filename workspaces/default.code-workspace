@@ -6,14 +6,14 @@
             "repository": "https://github.com/myrddraall/qwerty.git"
         },
         {
-            "name": "dcm-node-dc-template",
-            "path": "../repos/dcm-node-dc-template",
-            "repository": "https://github.com/cpdevtools/dcm-node-dc-template.git"
-        },
-        {
             "name": "dcm-images-devcontainers",
             "path": "../repos/dcm-images-devcontainers",
             "repository": "https://github.com/cpdevtools/dcm-images-devcontainers.git"
+        },
+        {
+            "name": "dcm-node-dc-template",
+            "path": "../repos/dcm-node-dc-template",
+            "repository": "https://github.com/cpdevtools/dcm-node-dc-template.git"
         },
         {
             "name": "=== Workspaces ===",
