@@ -2,6 +2,6 @@
     "name": "Dev Container",
     "dockerComposeFile": "docker-compose.yml",
     "service": "devcontainer",
-    "workspaceFolder": "/devcontainer",
-    "onCreateCommand": "ls -al"
+    "workspaceFolder": "/devcontainer/workspaces",
+    "initializeCommand": "dcm dc initialize"
 }
