@@ -4,6 +4,8 @@ services:
   devcontainer:
     image: ghcr.io/cpdevtools/dcm-images-devcontainers/typescript:next
     user: "node"
+    env_file:
+      - ".github.token.env"
     volumes:
       - ..:/devcontainer:cached
       - bashhistory:/commandhistory

@@ -2,5 +2,5 @@ repos/*
 !repos/.gitkeep
 .pnpm-store
 node_modules
-.devcontainer/.token.env
+.devcontainer/.github.token.env
 *.log
