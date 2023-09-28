@@ -1,0 +1,24 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.renderGithubWorkflowTemplates = void 0;
+const fast_glob_1 = __importDefault(require("fast-glob"));
+const path_1 = require("path");
+const package_managers_1 = require("../package-managers");
+const render_1 = require("./render");
+async function renderGithubWorkflowTemplates() {
+    console.log("Rendering GitHub workflow templates...");
+    const pm = await package_managers_1.PackageManager.loadPackage("package.json");
+    const pkgs = await pm.listWorkspacePackages();
+    console.log(pkgs);
+    const tplFiles = await (0, fast_glob_1.default)("*.*.mustache", { onlyFiles: true, dot: true, cwd: "./.github/workflow-templates" });
+    tplFiles.forEach(async (tplFile) => {
+        await (0, render_1.renderTemplateFileToFile)(`./.github/workflows/${(0, path_1.parse)(tplFile).name}`, `./.github/workflow-templates/${tplFile}`, {
+            projects: pkgs,
+        }, ["<%", "%>"]);
+    });
+}
+exports.renderGithubWorkflowTemplates = renderGithubWorkflowTemplates;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ2l0aHViLXdvcmtmbG93cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy90ZW1wbGF0ZXMvZ2l0aHViLXdvcmtmbG93cy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQSwwREFBNkI7QUFDN0IsK0JBQTZCO0FBQzdCLDBEQUFxRDtBQUNyRCxxQ0FBb0Q7QUFFN0MsS0FBSyxVQUFVLDZCQUE2QjtJQUNqRCxPQUFPLENBQUMsR0FBRyxDQUFDLHdDQUF3QyxDQUFDLENBQUM7SUFDdEQsTUFBTSxFQUFFLEdBQUcsTUFBTSxpQ0FBYyxDQUFDLFdBQVcsQ0FBQyxjQUFjLENBQUMsQ0FBQztJQUM1RCxNQUFNLElBQUksR0FBRyxNQUFNLEVBQUUsQ0FBQyxxQkFBcUIsRUFBRSxDQUFDO0lBQzlDLE9BQU8sQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLENBQUM7SUFFbEIsTUFBTSxRQUFRLEdBQUcsTUFBTSxJQUFBLG1CQUFJLEVBQUMsY0FBYyxFQUFFLEVBQUUsU0FBUyxFQUFFLElBQUksRUFBRSxHQUFHLEVBQUUsSUFBSSxFQUFFLEdBQUcsRUFBRSw4QkFBOEIsRUFBRSxDQUFDLENBQUM7SUFDakgsUUFBUSxDQUFDLE9BQU8sQ0FBQyxLQUFLLEVBQUUsT0FBTyxFQUFFLEVBQUU7UUFDakMsTUFBTSxJQUFBLGlDQUF3QixFQUM1Qix1QkFBdUIsSUFBQSxZQUFLLEVBQUMsT0FBTyxDQUFDLENBQUMsSUFBSSxFQUFFLEVBQzVDLGdDQUFnQyxPQUFPLEVBQUUsRUFDekM7WUFDRSxRQUFRLEVBQUUsSUFBSTtTQUNmLEVBQ0QsQ0FBQyxJQUFJLEVBQUUsSUFBSSxDQUFDLENBQ2IsQ0FBQztJQUNKLENBQUMsQ0FBQyxDQUFDO0FBQ0wsQ0FBQztBQWpCRCxzRUFpQkMifQ==
