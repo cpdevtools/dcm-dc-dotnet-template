@@ -1,5 +1,5 @@
 {
-    "name": "@cpdevtools/dcm-dc-typescript-template111",
+    "name": "@cpdevtools/dcm-dc-typescript-template11fsdf1",
     "private": true,
     "scripts": {
         "dc-onCreateCommand": "pnpm run -r dc-onCreateCommand",
