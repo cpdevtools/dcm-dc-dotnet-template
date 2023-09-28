@@ -1,4 +1,4 @@
-repos/*
+projects/*
 .pnpm-store
 node_modules
 .devcontainer/.token.env
