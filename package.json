@@ -1,8 +1,10 @@
 {
     "name": "@cpdevtools/dcm-dc-typescript-template",
     "private": true,
-
-    sfdasfdasf
+fdfdszf\0fd
+dfgs
+sdf
+"files": [dsf],
     "scripts": {
         "dc-onCreateCommand": "pnpm run -r dc-onCreateCommand",
         "dc-updateContentCommand": "pnpm run -r dc-updateContentCommand",
