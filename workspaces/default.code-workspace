@@ -7,6 +7,11 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
+        },
+        {
+            "name": "dcman",
+            "path": "../repos/dcman",
+            "repository": "https://github.com/cpdevtools/dcman.git"
         }
     ]
 }
