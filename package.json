@@ -1,5 +1,5 @@
 {
-    "name": "@cpdevtools/dcm-dc-typescript-template",
+    "name": "@cpdevtools/dcm-dc-typescript-template111",
     "private": true,
     "scripts": {
         "dc-onCreateCommand": "pnpm run -r dc-onCreateCommand",
@@ -9,6 +9,3 @@
         "dc-postStartCommand": "pnpm run -r dc-postStartCommand"
     }
 }
-
-
-dfasdas
