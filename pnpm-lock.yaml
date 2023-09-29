@@ -7,9 +7,3 @@ settings:
 importers:
 
   .: {}
-
-  repos/dcm-dc-typescript-template: {}
-
-  repos/dcm-node-dc-template: {}
-
-  repos/qwerty: {}
