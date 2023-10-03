@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   devcontainer:
-    image: ghcr.io/cpdevtools/dcm-images-devcontainers/typescript:next
+    image: ghcr.io/cpdevtools/dcm-images-devcontainers/dotnet:next
     user: "node"
     env_file:
       - ".github.token.env"
