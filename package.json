@@ -1,5 +1,5 @@
 {
-    "name": "@cpdevtools/dcm-dc-typescript-template",
+    "name": "@cpdevtools/dcm-dc-dotnet-template",
     "private": true,
     "version": "1.0.1",
     "scripts": {
