@@ -5,27 +5,8 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    user: "vscode"
+    user: "node"
     env_file:
       - ".github.token.env"
     volumes:
-      - ..:/devcontainer:cached
-      - bashhistory:/commandhistory
-      - dcm-npm-cache:/home/vscode/.npm
-      - dcm-pnpm-cache:/home/vscode/.pnpm-store/v3
-      - dcm-yarn-cache:/home/vscode/.cache/yarn
-      - dcm-nuget-cache:/home/vscode/.nuget
-
-
-
-volumes:
-  bashhistory:
-  dcm-nuget-cache:
-    external: true
-  dcm-pnpm-cache:
-    external: true
-  dcm-npm-cache:
-    external: true
-  dcm-yarn-cache:
-    external: true
- 
+      - ../:/devcontainer:cached

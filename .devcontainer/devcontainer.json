@@ -3,5 +3,8 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "devcontainer",
     "workspaceFolder": "/devcontainer/workspaces",
-    "initializeCommand": "dcm dc initialize"
+    "initializeCommand": "dcm dc initialize",
+    "containerEnv": {
+        "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}/repos"
+    }
 }
